@@ -6,7 +6,6 @@ This repository contains 2 "Hello World" React Native apps. One is built with th
 2. Run `npm install`
 3. Run `npx react-native run-android`
 4. Collapse the header by scrolling up
-5. The text 'World' should shrink
+5. The text 'World' should shrink but doesn't.
 
 Repeat the above steps in the oldarch app and you'll see that the text 'World' shrinks as expected at step 5. The text shrinks correctly in the new architecture example if `useNativeDriver` is set to false.
- 
